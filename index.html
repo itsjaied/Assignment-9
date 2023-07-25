@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LUCID | Home</title>
+  <!-- style.css linked here -->
   <link rel="stylesheet" href="styles/style.css">
+  <!-- responsive.css linked here -->
   <link rel="stylesheet" href="styles/responsive.css">
   <!-- font family linked here -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap"
@@ -23,9 +25,9 @@
   <!-- header part start -->
   <header class="header">
     <div class="container">
-
       <div class="row">
         <div class="col-lg-12">
+          <!-- navbar section start -->
           <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -34,7 +36,7 @@
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -60,21 +62,25 @@
               </div>
             </div>
           </nav>
+          <!-- navbar section start -->
 
+          <!-- banner section start -->
           <div class="banner">
-            <div class="col-lg-6">
-              <p class="blu-txt">introducing lucid theme</p>
-              <h1>Carefully crafted and beautiful landing page.</h1>
+            <div class="title">
+              <h5>introducing lucid theme</h5>
+              <h1>Carefully crafted and<br>beautiful landing page.</h1>
               <p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies
                 accumsan. Cras
                 venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
+            </div>
+            <div class="banner-btn">
               <a href="#" class="btn btn-primary">download now</a>
               <a href="#" class="btn btn-secondary">view features</a>
             </div>
           </div>
+          <!-- banner section end -->
         </div>
       </div>
-
     </div>
   </header>
   <!-- header part start -->
@@ -86,46 +92,60 @@
       <div class="container">
 
         <div class="title">
-          <p class="blu-txt">product overview</p>
+          <h5>product overview</h5>
           <h2>List of amazing features</h2>
           <img src="images/line.png" alt="">
         </div>
 
-        <div class="row feature-box">
-          <div class="col-lg-3 box-content">
-            <div class="logo">
-              <img src="images/monitor.png" alt="">
+        <div class="features">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <div class="feature-box-content">
+                <div class="logo">
+                  <img src="images/monitor.png" alt="">
+                </div>
+                <h5>Responsive</h5>
+                <p>Fusce fermentum placerat<br>magna ac pharetra. Aliquam<br>euismod elit non ipsum lacinia<br>
+                  consectetur.
+                </p>
+              </div>
             </div>
-            <h5>Responsive</h5>
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-            </p>
-          </div>
 
-          <div class="col-lg-3 box-content">
-            <div class="logo">
-              <img src="images/settings.png" alt="">
+            <div class="col-sm-6 col-lg-3">
+              <div class="feature-box-content">
+                <div class="logo">
+                  <img src="images/settings.png" alt="">
+                </div>
+                <h5>Customizable</h5>
+                <p>Fusce fermentum placerat<br>magna ac pharetra. Aliquam<br>euismod elit non ipsum lacinia<br>
+                  consectetur.
+                </p>
+              </div>
             </div>
-            <h5>Customizable</h5>
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-            </p>
-          </div>
 
-          <div class="col-lg-3 box-content">
-            <div class="logo">
-              <img src="images/Like.png" alt="">
+            <div class="col-sm-6 col-lg-3">
+              <div class="feature-box-content">
+                <div class="logo">
+                  <img src="images/Like.png" alt="">
+                </div>
+                <h5>Lovely design</h5>
+                <p>Fusce fermentum placerat<br>magna ac pharetra. Aliquam<br>euismod elit non ipsum lacinia<br>
+                  consectetur.
+                </p>
+              </div>
             </div>
-            <h5>Lovely design</h5>
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-            </p>
-          </div>
 
-          <div class="col-lg-3 box-content">
-            <div class="logo">
-              <img src="images/Phone.png" alt="">
+            <div class="col-sm-6 col-lg-3">
+              <div class="feature-box-content">
+                <div class="logo">
+                  <img src="images/Phone.png" alt="">
+                </div>
+                <h5>Mobile Friendly</h5>
+                <p>Fusce fermentum placerat<br>magna ac pharetra. Aliquam<br>euismod elit non ipsum lacinia<br>
+                  consectetur.
+                </p>
+              </div>
             </div>
-            <h5>Mobile Friendly</h5>
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-            </p>
           </div>
         </div>
 
@@ -134,61 +154,73 @@
     <!-- feature middle -->
     <div class="feature-middle">
       <div class="container">
-
         <div class="row">
-          <div class="col-lg-6">
-            <img src="images/feature-phn.png" alt="" class="">
-          </div>
-          <div class="col-lg-6">
-            <div class="title">
-              <p class="blu-txt">dip into the details</p>
-              <h2>Beautiful on every device</h2>
-              <img src="images/line.png" alt="">
-            </div>
-            <p class="grey-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
-              velit. Nam nec
-              tellus a odio
-              tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-            </p>
-            <ul>
-              <li>
-                <img src="images/Cup.png" alt=""><span>Awesome design</span>
-              </li>
-              <li>
-                <img src="images/Mouse.png" alt=""><span>Fully responsive</span>
-              </li>
-              <li>
-                <img src="images/Energy.png" alt=""><span>Retina ready</span>
-              </li>
-              <li>
-                <img src="images/Speedometer.png" alt=""><span>Tons of features and easy to use</span>
-              </li>
-            </ul>
-          </div>
-        </div>
 
+          <div class="col-md-6">
+            <div class="feature-middle-img">
+              <img src="images/feature-phn.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="feature-middle-text">
+              <div class="title">
+                <h5>dip into the details</h5>
+                <h2>Beautiful on every device</h2>
+                <img src="images/line.png" alt="">
+              </div>
+              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+                velit. Nam nec
+                tellus a odio
+                tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+              </p>
+              <ul>
+                <li>
+                  <img src="images/Cup.png" alt=""><span>Awesome design</span>
+                </li>
+                <li>
+                  <img src="images/Mouse.png" alt=""><span>Fully responsive</span>
+                </li>
+                <li>
+                  <img src="images/Energy.png" alt=""><span>Retina ready</span>
+                </li>
+                <li>
+                  <img src="images/Speedometer.png" alt=""><span>Tons of features and easy to use</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+
     <!-- feature bottom -->
     <div class="feature-bottom">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6">
-            <div class="title">
-              <p class="blu-txt">dip into the details</p>
-              <h2>Super easy to customize</h2>
-              <img src="images/line.png" alt="">
+          <div class="col-md-6">
+            <div class="feature-bottom-text">
+              <div class="title">
+                <h5>dip into the details</h5>
+                <h2>Super easy to customize</h2>
+                <img src="images/line.png" alt="">
+              </div>
+
+              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+                velit. Nam nec tellus a odio
+                tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+                taciti
+                sociosqu ad
+                litora torquent per conubia nostra, per inceptos himenaeos.</p>
             </div>
-            <p class="grey-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
-              velit. Nam nec tellus a odio
-              tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti
-              sociosqu ad
-              litora torquent per conubia nostra, per inceptos himenaeos.</p>
           </div>
 
-          <div class="col-lg-6">
-            <img src="images/f-phn-2.png" alt="" class="phone">
+          <div class="col-md-6">
+            <div class="feature-bottom-img">
+              <img src="images/f-phn-2.png" alt="" class="img-fluid">
+            </div>
           </div>
         </div>
 
@@ -200,15 +232,14 @@
   <!-- testimonial section start -->
   <div class="testimonial">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="title">
-            <p class="blu-txt">quality has its price</p>
-            <h2>Pricings & Plans</h2>
-            <img src="images/line.png" alt="">
-          </div>
-        </div>
 
+      <div class="title">
+        <h5>quality has its price</h5>
+        <h2>Testimonials</h2>
+        <img src="images/line.png" alt="">
+      </div>
+
+      <div class="row">
         <div class="col-lg-12">
           <div class="owl-carousel owl-theme">
             <div class="item">
@@ -233,50 +264,7 @@
                 </p>
               </div>
             </div>
-            <div class="item">
-              <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their
-                waters salt. “When we
-                come to you,” said they to the Sea.</p>
-              <div class="inner-item">
-                <img src="images/t-1.png" alt="" class="t-img">
-                <p>Jhon Doe<br>
-                  <span>CEO, THE RIVERS COMPANY</span>
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're
-                going to move is
-                quite dictated by your shoes.</p>
-              <div class="inner-item">
-                <img src="images/t-2.png" alt="" class="t-img">
-                <p>Dean Winchester<br>
-                  <span>UX DESIGNER, GOOGLE INC.</span>
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their
-                waters salt. “When we
-                come to you,” said they to the Sea.</p>
-              <div class="inner-item">
-                <img src="images/t-1.png" alt="" class="t-img">
-                <p>Jhon Doe<br>
-                  <span>CEO, THE RIVERS COMPANY</span>
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're
-                going to move is
-                quite dictated by your shoes.</p>
-              <div class="inner-item">
-                <img src="images/t-2.png" alt="" class="t-img">
-                <p>Dean Winchester<br>
-                  <span>UX DESIGNER, GOOGLE INC.</span>
-                </p>
-              </div>
-            </div>
+
             <div class="item">
               <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their
                 waters salt. “When we
@@ -300,6 +288,51 @@
               </div>
             </div>
 
+            <div class="item">
+              <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their
+                waters salt. “When we
+                come to you,” said they to the Sea.</p>
+              <div class="inner-item">
+                <img src="images/t-1.png" alt="" class="t-img">
+                <p>Jhon Doe<br>
+                  <span>CEO, THE RIVERS COMPANY</span>
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're
+                going to move is
+                quite dictated by your shoes.</p>
+              <div class="inner-item">
+                <img src="images/t-2.png" alt="" class="t-img">
+                <p>Dean Winchester<br>
+                  <span>UX DESIGNER, GOOGLE INC.</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their
+                waters salt. “When we
+                come to you,” said they to the Sea.</p>
+              <div class="inner-item">
+                <img src="images/t-1.png" alt="" class="t-img">
+                <p>Jhon Doe<br>
+                  <span>CEO, THE RIVERS COMPANY</span>
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're
+                going to move is
+                quite dictated by your shoes.</p>
+              <div class="inner-item">
+                <img src="images/t-2.png" alt="" class="img-fluid">
+                <p>Dean Winchester<br>
+                  <span>UX DESIGNER, GOOGLE INC.</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -307,110 +340,112 @@
 
     </div>
   </div>
-  </div>
-
-
-
-
 
   <!-- testimonial section end -->
 
 
-  <!-- gettheme section start -->
-  <div class="gettheme">
+  <!-- t-footer section start -->
+  <div class="t-footer">
     <div class="container">
 
-      <div class="row">
-        <div class="col-lg-7">
-          <p><span>Like what you see?</span> Get this great theme now!</p>
-        </div>
+      <p><span>Like what you see?</span> Get this great theme now!</p>
 
-        <div class="col-lg-5 themebtn">
-          <a href="#" class="btn btn-secondary">view features</a>
-          <a href="#" class="btn btn-primary">download now</a>
-        </div>
+      <div class="t-footer-btn">
+        <a href="#" class="btn btn-secondary">view features</a>
+        <a href="#" class="btn btn-primary">download now</a>
       </div>
 
     </div>
   </div>
-  <!-- f-btn section end -->
+
+  <!-- t-footer section end -->
+
 
   <!-- priceTag section start -->
   <div class="pricing">
     <div class="container">
 
       <div class="title">
-        <p class="blu-txt">quality has its price</p>
+        <h5>quality has its price</h5>
         <h2>Pricings & Plans</h2>
         <img src="images/line.png" alt="">
       </div>
 
       <div class="inner-pricing">
-        <div class="priceTag">
-          <div class="priceHead">
-            <h4>Free</h4>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="priceTag">
+              <div class="priceHead">
+                <h4>Free</h4>
+              </div>
+              <div class="price">
+                <p><sup>$</sup>0</p>
+                <p>/per month</p>
+              </div>
+              <div class="priceText">
+                <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
+                  consectetur
+                </p>
+                <a href="" class="btn btn-primary">order now</a>
+              </div>
+            </div>
           </div>
-          <div class="price">
-            <p><sup>$</sup>0</p>
-            <p>/per month</p>
-          </div>
-          <div class="priceText">
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
-              consectetur
-            </p>
-            <a href="" class="btn btn-primary">order now</a>
-          </div>
-        </div>
 
-        <div class="priceTag">
-          <div class="priceHead">
-            <h4>Personal</h4>
+          <div class="col-sm-6 col-lg-3">
+            <div class="priceTag">
+              <div class="priceHead">
+                <h4>Personal</h4>
+              </div>
+              <div class="price">
+                <p><sup>$</sup>25</p>
+                <p>/per month</p>
+              </div>
+              <div class="priceText">
+                <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
+                  consectetur
+                </p>
+                <a href="" class="btn btn-primary">order now</a>
+              </div>
+            </div>
           </div>
-          <div class="price">
-            <p><sup>$</sup>25</p>
-            <p>/per month</p>
-          </div>
-          <div class="priceText">
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
-              consectetur
-            </p>
-            <a href="" class="btn btn-primary">order now</a>
-          </div>
-        </div>
 
-        <div class="priceTag">
-          <div class="priceHead">
-            <h4>Business</h4>
+          <div class="col-sm-6 col-lg-3">
+            <div class="priceTag">
+              <div class="priceHead">
+                <h4>Business</h4>
+              </div>
+              <div class="price">
+                <p><sup>$</sup>50</p>
+                <p>/per month</p>
+              </div>
+              <div class="priceText">
+                <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
+                  consectetur
+                </p>
+                <a href="" class="btn btn-primary">order now</a>
+              </div>
+            </div>
           </div>
-          <div class="price">
-            <p><sup>$</sup>50</p>
-            <p>/per month</p>
-          </div>
-          <div class="priceText">
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
-              consectetur
-            </p>
-            <a href="" class="btn btn-primary">order now</a>
-          </div>
-        </div>
 
-        <div class="priceTag">
-          <div class="priceHead">
-            <h4>Ultimate</h4>
-          </div>
-          <div class="price">
-            <p><sup>$</sup>99</p>
-            <p>/per month</p>
-          </div>
-          <div class="priceText">
-            <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
-              consectetur
-            </p>
-            <a href="" class="btn btn-primary">order now</a>
+          <div class="col-sm-6 col-lg-3">
+            <div class="priceTag">
+              <div class="priceHead">
+                <h4>Ultimate</h4>
+              </div>
+              <div class="price">
+                <p><sup>$</sup>99</p>
+                <p>/per month</p>
+              </div>
+              <div class="priceText">
+                <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>
+                  consectetur
+                </p>
+                <a href="" class="btn btn-primary">order now</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
 
     </div>
   </div>
@@ -423,8 +458,8 @@
 
 
       <div class="title">
-        <p class="blu-txt">stay in touch</p>
-        <h2>Contact us</h2>
+        <h5>stay in touch</h5>
+        <h2>Contact Us</h2>
         <img src="images/line.png" alt="">
       </div>
 
@@ -444,20 +479,21 @@
           <p>support@yourname.com</p>
         </div>
       </div>
+
       <!-- form section started -->
       <div class="form">
         <div class="row">
-          <div class="col-lg-8 offset-lg-2">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
             <div class="inner-form">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                   <input type="text" class="form-control" placeholder="Name *" value="name *">
                   <input type="text" class="form-control" placeholder="Name *" value="email *">
                   <input type="text" class="form-control" placeholder="Name *" value="subject *">
                 </div>
 
 
-                <div class="col-lg-6">
+                <div class="col-md-6">
                   <textarea name="" id="" cols="20" rows="8" class="form-control">message *</textarea>
                   <a href="" class="btn btn-primary">send message</a>
                 </div>
@@ -471,6 +507,8 @@
     </div>
   </div>
   <!-- contact section end -->
+
+
   <!-- map embed section start -->
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.2931442159625!2d92.05520957520645!3d22.076619079847955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad11837dc923c3%3A0xc93118d191e99cbc!2sSatkania%20Government%20College!5e0!3m2!1sen!2sbd!4v1687811743180!5m2!1sen!2sbd"
@@ -501,7 +539,7 @@
           <a href="#"><i class="fa fa-linkedin"></i></a>
         </li>
       </ul>
-      <p>copyright © by md jaied hasan 2021 | lucid onepage theme </p>
+      <p>Copyright © by Jaied Hasan 2023 | lucid onepage theme</p>
     </div>
   </footer>
   <!-- footer section end -->
@@ -515,14 +553,14 @@
       loop: true,
       margin: 50,
       nav: false,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 5000,
       responsive: {
         0: {
           items: 1
         },
-        600: {
-          items: 1
+        700: {
+          items: 2
         },
         1000: {
           items: 2
